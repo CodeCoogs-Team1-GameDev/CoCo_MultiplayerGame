@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehavior{
 
     private void Attack(){
         // Perform attack logic here, e.g., play animation, deal damage, etc.
-        Debug.Log("Player hit!");
+        Debug.Log("Player dealed damage!");
 
         // Check for enemies within the attack range and perform actions if needed
         Collider[] hitEnemies = Physics.OverlapSphere(transform.position, attackRange);
