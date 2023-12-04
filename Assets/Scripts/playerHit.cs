@@ -35,4 +35,4 @@ public class EnemyScript : MonoBehaviour{
         // You may want to disable the player GameObject or trigger a game over state here.
     }
 }
-
+}

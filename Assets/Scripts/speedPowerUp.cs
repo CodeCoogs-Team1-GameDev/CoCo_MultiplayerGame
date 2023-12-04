@@ -1,8 +1,8 @@
- // StrengthPowerUp.cs
+/* // StrengthPowerUp.cs
 
 using UnityEngine;
 
-public class StrengthPowerUp : MonoBehaviour
+public class SpeedPowerUp : MonoBehaviour
 {
     public float speedMultiplier = 4f; // Adjust this value based on your requirements
 
@@ -22,7 +22,8 @@ public class StrengthPowerUp : MonoBehaviour
 
         if (playerController != null)
         {
-            playerController.ApplySpeedpowerUp(strengthMultiplier);
+            playerController.ApplySpeedpowerUp(speedMultiplier);
         }
     }
 }
+*/

@@ -1,4 +1,4 @@
-// PlayerController.cs
+/*// PlayerController.cs
 
 using UnityEngine;
 
@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    [Command]
+    //[Command]
     void CmdFire()
     {
         // Spawn bullets or perform shooting logic on the server
@@ -28,14 +28,14 @@ public class PlayerController : MonoBehaviour
         RpcSpawnBullet();
     }
 
-    [ClientRpc]
+    //[ClientRpc]
     void RpcSpawnBullet()
     {
         // Spawn bullets on all clients
     }
     
     private float baseStrength = 1f;
-    private float baseSpeed = 1fl
+    private float baseSpeed = 1f;
     private float currentStrength;
 
     // Other player controller code...
@@ -48,3 +48,4 @@ public class PlayerController : MonoBehaviour
         // You might want to play a sound or show a visual effect here
     }
 }
+*/

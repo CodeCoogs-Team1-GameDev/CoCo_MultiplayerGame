@@ -1,4 +1,4 @@
- // StrengthPowerUp.cs
+/* // StrengthPowerUp.cs
 
 using UnityEngine;
 
@@ -26,3 +26,4 @@ public class StrengthPowerUp : MonoBehaviour
         }
     }
 }
+*/

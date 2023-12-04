@@ -1,9 +1,9 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 //class for player movement
-public class PlayerMovement : MonoBehavior{
+public class PlayerMovement : MonoBehaviour{
     private PlayerBody pb;
     private void start(){
         pb = GetComponet<PlayerBody>();
@@ -59,3 +59,5 @@ public class PlayerMovement : MonoBehavior{
     }
 
 }
+}
+*/
